@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: customMetadata.title || aboutMe.name,
   description: customMetadata.description || aboutMe.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/favicon.ico",
   },
 };
 
@@ -58,7 +58,7 @@ export default function RootLayout({
             </div>
             <div className="mb-4">
               <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
-                Built with{" "}
+                Borrowed from{" "}
                 <a
                   href="https://github.com/tovacinni/research-website-template"
                   className="underline hover:text-neutral-800 dark:hover:text-neutral-300 transition-colors"

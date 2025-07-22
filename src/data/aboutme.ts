@@ -18,22 +18,23 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Xindong Lin",
+  title: "Graduate Student",
+  institution: "University of British Columbia",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "Hi, I'm on my final year of MSc in Computer Science at UBC, where I work with Professor <a href='https://www.cs.ubc.ca/~van/'>Michiel van de Panne</a> on character animation and robotics. Most of the time, I teaches humanoid robots in simulation to do different motions using deep reinforcement learning (RL). Besides, I'm also broadly interested in embodied AI and computer graphics. My ultimate goal is to create universal intelligent agents that can replace humans for dangerous tasks. Previously during my undergrad, I worked with Professor <a href='https://sensorimotor.cs.ubc.ca/pai/'>Dinesh K. Pai</a> on motion capture topics. <br> <br> Before I dived into academia, I worked in the industry as a software engineer, where I created Web Apps with JavaScript and Python. During my leisure time, I do sports and play competitive FPS games such as Valorant, CS:GO and Apex Legends. Fun fact: I'm an Immortal (<a href='https://tracker.gg/valorant/profile/riot/social%20phobia%23OvO/overview?platform=pc&playlist=competitive&season=ac12e9b3-47e6-9599-8fa1-0bb473e5efc7/'>top 0.5%</a>) player in Valorant. <br> <br> <b><u>Update:</u></b> I'll be looking for internships from the start of 2026, anything related to robotics, character animation, or embodied AI is welcome. If you are interested in my profile, please feel free to contact me via email.",
+  email: "xindong@cs.ubc.ca",
+  funDescription: "I am a competitive fps gamer.",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+    "/images/profile.jpg",
+  googleScholarUrl: "https://scholar.google.ca/citations?user=Dhfl1TEAAAAJ&hl=en",
+  githubUsername: "xindonglin99",
+  linkedinUsername: "xindonglin",
+  twitterUsername: "linx1ndong",
+  // blogUrl: "https://",
+  cvUrl: "/pdfs/cv.pdf",
+  institutionUrl: "https://www.cs.ubc.ca/",
+  // altName: "Character animation and robotics",
+  secretDescription: "'Good artists copy; great artists steal.' - Pablo Picasso",
 };

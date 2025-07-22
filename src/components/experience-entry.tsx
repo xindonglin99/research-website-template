@@ -20,6 +20,11 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
             experience.company
           )}
         </h3>
+        {experience.course && (
+          <p className="text-sm text-zinc-600 leading-relaxed italic mt-2">
+            Course: {experience.course}
+          </p>
+        )}
         {experience.advisor && (
           <p className="text-sm text-zinc-600 leading-relaxed italic mt-2">
             Advisor: {experience.advisor}
@@ -31,9 +36,7 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
           </p>
         )}
         {experience.description && (
-          <p className="text-sm text-zinc-600 leading-relaxed mt-2">
-            {experience.description}
-          </p>
+          <p className="text-sm text-zinc-600 leading-relaxed mt-2" dangerouslySetInnerHTML={{ __html: experience.description }} />
         )}
       </div>
     </div>
