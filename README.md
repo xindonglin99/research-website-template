@@ -1,4 +1,4 @@
-# Personal website for Xindong
+# Personal website
 
 This is the source code for Xindong's personal website.
 
