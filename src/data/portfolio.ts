@@ -13,23 +13,23 @@ export const portfolioData: Portfolio[] = [
   {
     title: "Learning to boulder (Ongoing)",
     description:
-      "Will put some projects here soon. Stay tuned!",
-    technologies: ["Python", "PyTorch", "React"],
-    projectUrl: "https://project-demo.com",
+      "This project combines a high-level planner with a low-level controller to solve hard bouldering problems. The picture is a toy example on a donut wall. More updates incoming!",
+    technologies: ["RL", "IsaacLab", "Planning"],
+    // projectUrl: "https://project-demo.com",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    codeUrl: "https://github.com/username/project",
+      "/images/climbing.gif",
+    // codeUrl: "https://github.com/username/project",
   },
 
   {
     title: "GPU-accelerated Humanoid Stepping",
     description:
-      "Will put some projects here soon. Stay tuned!",
-    technologies: ["Python", "PyTorch", "React"],
-    projectUrl: "https://project-demo.com",
+      "This project reimplements the ALLSTEPS paper in IsaacLab. It analyzes the performance of ALLSTEPS on different simulations and optimizes the reward function to improve the performance of the humanoid robot in simulation. More updates are coming soon.",
+    technologies: ["IsaacLab", "RL"],
+    // projectUrl: "https://project-demo.com",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    codeUrl: "https://github.com/username/project",
+      "/images/allsteps.gif",
+    codeUrl: "https://github.com/xindonglin99/allsteps-isaaclab",
   },
 
   {

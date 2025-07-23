@@ -33,7 +33,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "xindonglin",
   twitterUsername: "linx1ndong",
   // blogUrl: "https://",
-  cvUrl: "/pdfs/cv.pdf",
+  // cvUrl: "/pdfs/cv.pdf",
   institutionUrl: "https://www.cs.ubc.ca/",
   // altName: "Character animation and robotics",
   secretDescription: "'Good artists copy; great artists steal.' - Pablo Picasso",
